@@ -1,0 +1,19 @@
+{
+    "port": 3000,
+    "MONGODB_URL": "mongodb+srv://student:student2019@mycluster-ggzim.mongodb.net/parking",
+    "logging": {
+        "appenders": {
+            "default": {
+                "type": "console"
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "default"
+                ],
+                "level": "debug"
+            }
+        }
+    }
+}
